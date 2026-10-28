@@ -1,3 +1,4 @@
+export { eq, and, or, inArray, desc, asc, sql, type InferSelectModel, type InferInsertModel } from 'drizzle-orm';
 export * from './client';
 export * from './schema/index';
 export * from './validators/index';

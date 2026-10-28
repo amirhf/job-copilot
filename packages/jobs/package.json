@@ -1,0 +1,30 @@
+{
+  "name": "@job-copilot/jobs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./connectors/*": "./src/connectors/*.ts",
+    "./inspectors/*": "./src/inspectors/*.ts",
+    "./dedup/*": "./src/dedup/*.ts",
+    "./trigger/*": "./src/trigger/*.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@job-copilot/agents": "workspace:*",
+    "@job-copilot/db": "workspace:*",
+    "@trigger.dev/sdk": "^3.3.17",
+    "drizzle-orm": "^0.40.0",
+    "linkedom": "^0.18.9",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
