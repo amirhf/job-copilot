@@ -7,3 +7,4 @@ export * from './connectors/runner';
 export * from './inspectors/form-inspector';
 export * from './dedup/deduplicator';
 export * from './trigger/ingest-jobs';
+export * from './trigger/generate-materials-task';

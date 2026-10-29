@@ -1,0 +1,27 @@
+{
+  "name": "@job-copilot/pdf-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./generator": "./src/generator.ts",
+    "./node-compiler": "./src/node-compiler.ts",
+    "./auditor": "./src/auditor.ts",
+    "./storage": "./src/storage.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@job-copilot/db": "workspace:*",
+    "@myriaddreamin/typst-ts-node-compiler": "^0.6.0-rc2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
