@@ -15,7 +15,8 @@
     "db:down": "docker compose down",
     "db:generate": "pnpm --filter @job-copilot/db db:generate",
     "db:migrate": "pnpm --filter @job-copilot/db db:migrate",
-    "db:seed": "pnpm --filter @job-copilot/db db:seed"
+    "db:seed": "pnpm --filter @job-copilot/db db:seed",
+    "apply:companion": "pnpm --filter @job-copilot/browser-apply companion"
   },
   "devDependencies": {
     "turbo": "^2.5.0",
