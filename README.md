@@ -48,3 +48,10 @@ pnpm typecheck
 # Run full workspace Vitest unit & integration test suites
 pnpm test
 ```
+
+---
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
