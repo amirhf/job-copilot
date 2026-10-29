@@ -8,5 +8,6 @@ export * from './ingestion/graph-merger';
 export * from './evaluators/stage1-filter';
 export * from './evaluators/stage2-rubric';
 export * from './streaming/ag-ui-publisher';
+export * from './memory/preference-service';
 export * from './workflows/ingest-and-score';
 export * from './workflows/generate-materials';
